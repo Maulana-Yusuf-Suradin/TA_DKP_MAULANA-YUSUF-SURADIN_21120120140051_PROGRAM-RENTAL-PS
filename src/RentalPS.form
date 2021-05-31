@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RentalPS">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="21" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="20" bottom="12" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="1312" height="689"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.5"/>
+      <autoscrolls value="false"/>
+      <background color="-23296"/>
+      <doubleBuffered value="true"/>
+      <foreground color="-23296"/>
+      <opaque value="true"/>
+      <verifyInputWhenFocusTarget value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1c5ac" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="16"/>
+          <foreground color="-16777216"/>
+          <text value="      Pilihan Playstation :"/>
+        </properties>
+      </component>
+      <component id="ea3eb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14"/>
+          <foreground color="-16777216"/>
+          <text value="1. Playstation 3 Rp 4000/Jam"/>
+        </properties>
+      </component>
+      <component id="28419" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14"/>
+          <foreground color="-16777216"/>
+          <text value="2. Playstation 4 Rp 6000/Jam"/>
+        </properties>
+      </component>
+      <component id="b9817" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="14"/>
+          <foreground color="-16777216"/>
+          <text value="3. Playstation 5 Rp 9000/Jam"/>
+        </properties>
+      </component>
+      <component id="732a5" class="javax.swing.JLabel" binding="LabelNamaPenyewa">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-64512"/>
+          <font name="Century Gothic" size="12"/>
+          <foreground color="-16777216"/>
+          <text value="Nama Lengkap"/>
+        </properties>
+      </component>
+      <component id="e6a52" class="javax.swing.JLabel" binding="LabelEmailPenyewa">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12"/>
+          <foreground color="-16777216"/>
+          <text value="Email Penyewa"/>
+        </properties>
+      </component>
+      <component id="e294f" class="javax.swing.JLabel" binding="LabelPilihanPlaystation">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12"/>
+          <foreground color="-16777216"/>
+          <text value="Pilihan Playstation"/>
+        </properties>
+      </component>
+      <component id="84824" class="javax.swing.JLabel" binding="LabelLamaPenyewaan">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12"/>
+          <foreground color="-16777216"/>
+          <text value="Lama Penyewaan"/>
+        </properties>
+      </component>
+      <component id="9ad15" class="javax.swing.JTextField" binding="textNamaPenyewa">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15728896"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="550bc" class="javax.swing.JTextField" binding="textEmailPenyewa">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15728896"/>
+        </properties>
+      </component>
+      <component id="df27c" class="javax.swing.JTextField" binding="textPilihanPlaystation">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15728896"/>
+        </properties>
+      </component>
+      <component id="e2b2e" class="javax.swing.JTextField" binding="textLamaPenyewaan">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15728896"/>
+        </properties>
+      </component>
+      <component id="90fd2" class="javax.swing.JButton" binding="prosesButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16774145"/>
+          <foreground color="-1"/>
+          <text value="Proses"/>
+        </properties>
+      </component>
+      <component id="1629f" class="javax.swing.JLabel" binding="LabelNama">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic"/>
+          <foreground color="-16777216"/>
+          <text value="Nama Penyewa"/>
+        </properties>
+      </component>
+      <component id="419f1" class="javax.swing.JLabel" binding="LabelHargaSewa">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic"/>
+          <foreground color="-16777216"/>
+          <text value="Harga Sewa"/>
+        </properties>
+      </component>
+      <component id="6f1b5" class="javax.swing.JLabel" binding="LabelTotalBayar">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic"/>
+          <foreground color="-16777216"/>
+          <text value="Total Bayar"/>
+        </properties>
+      </component>
+      <component id="1b357" class="javax.swing.JTextField" binding="textNama">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15728896"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="ed42c" class="javax.swing.JTextField" binding="textTotalBayar">
+        <constraints>
+          <grid row="17" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15728896"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="dc74" class="javax.swing.JTextField" binding="textTerimaKasih">
+        <constraints>
+          <grid row="19" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12237432"/>
+          <editable value="false"/>
+          <enabled value="false"/>
+          <font name="Lucida Sans Typewriter"/>
+          <foreground color="-15307845"/>
+        </properties>
+      </component>
+      <vspacer id="75e3c">
+        <constraints>
+          <grid row="1" column="8" row-span="17" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="9fb1" class="javax.swing.JLabel" binding="LabelWaktuPemesanan">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12"/>
+          <foreground color="-16777216"/>
+          <text value="Waktu Pemesanan"/>
+        </properties>
+      </component>
+      <component id="c81ae" class="javax.swing.JComboBox" binding="comboTanggal">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7356929"/>
+          <editable value="false"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+            <item value="13"/>
+            <item value="14"/>
+            <item value="15"/>
+            <item value="16"/>
+            <item value="17"/>
+            <item value="18"/>
+            <item value="19"/>
+            <item value="20"/>
+            <item value="21"/>
+            <item value="22"/>
+            <item value="23"/>
+            <item value="24"/>
+            <item value="25"/>
+            <item value="26"/>
+            <item value="27"/>
+            <item value="28"/>
+            <item value="29"/>
+            <item value="30"/>
+            <item value="31"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a9d30" class="javax.swing.JComboBox" binding="comboBulan">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7356929"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Januari"/>
+            <item value="Februari"/>
+            <item value="Maret"/>
+            <item value="April"/>
+            <item value="Mei"/>
+            <item value="Juni"/>
+            <item value="Juli"/>
+            <item value="Agustus"/>
+            <item value="September"/>
+            <item value="Oktober"/>
+            <item value="November"/>
+            <item value="Desember"/>
+          </model>
+        </properties>
+      </component>
+      <component id="335ad" class="javax.swing.JLabel" binding="LabelJamPemesanan">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12"/>
+          <foreground color="-16777216"/>
+          <text value="Jam Pemesanan"/>
+        </properties>
+      </component>
+      <component id="c737e" class="javax.swing.JTextField" binding="textJamPemesanan">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15728896"/>
+        </properties>
+      </component>
+      <component id="7e261" class="javax.swing.JButton" binding="keluarButton" default-binding="true">
+        <constraints>
+          <grid row="18" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-65024"/>
+          <foreground color="-1"/>
+          <text value="Keluar"/>
+        </properties>
+      </component>
+      <component id="8f665" class="javax.swing.JButton" binding="hapusDataButton" default-binding="true">
+        <constraints>
+          <grid row="18" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-65024"/>
+          <foreground color="-1"/>
+          <text value="Hapus Data"/>
+        </properties>
+      </component>
+      <component id="b8971" class="javax.swing.JLabel" binding="RentalPS">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Komika Axis" size="22" style="1"/>
+          <foreground color="-3335"/>
+          <text value="      RENTAL PLAYSTATION TOP ELEVEN"/>
+        </properties>
+      </component>
+      <component id="10f35" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12"/>
+          <foreground color="-16777216"/>
+          <text value="Alamat  Lengkap"/>
+        </properties>
+      </component>
+      <component id="280da" class="javax.swing.JTextField" binding="textAlamat">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15728896"/>
+        </properties>
+      </component>
+      <component id="9265d" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints>
+          <grid row="7" column="4" row-span="11" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12237432"/>
+          <editable value="false"/>
+          <foreground color="-1281"/>
+          <text value="RENTAL PLAYSTATION TOP ELEVEN"/>
+        </properties>
+      </component>
+      <component id="b98a4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="6066" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="4a3ea" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="dba5f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="4f78a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="6ea27" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="c03f1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="d38cd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="eeb22" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="3c57e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="272bf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-23296"/>
+          <foreground color="-23296"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="b9d0d" class="javax.swing.JTextField" binding="textHargaSewa">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15728896"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="ea180" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="20" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="DialogInput" size="12"/>
+          <foreground color="-11250350"/>
+          <text value="©2021 Rental Playstation Top Eleven"/>
+        </properties>
+      </component>
+      <component id="329e7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12"/>
+          <foreground color="-16777216"/>
+          <text value="Silahkan mengisi data berikut ini dengan benar  :"/>
+        </properties>
+      </component>
+      <component id="595ae" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="18" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14679809"/>
+          <foreground color="-1281"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
